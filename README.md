@@ -53,5 +53,12 @@ And to control the robot using WASD input this in another terminal shell
 $ roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
 ```
 
+### before moving
+
+![VirtualBoxVM_0fMsXhus5t](https://user-images.githubusercontent.com/25144777/122816750-ccc5ff00-d2df-11eb-9375-39ea90fc9349.png)
+
+### after moving
+
+![VirtualBoxVM_mTZPDNgoS6](https://user-images.githubusercontent.com/25144777/122816769-d0598600-d2df-11eb-87ac-e955faa7a98b.png)
 
 ## SLAM simulation
