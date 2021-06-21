@@ -1,5 +1,5 @@
 # slam-turtlebot-simulation
-This will contain the process of how I ran a simulation of the turtlebot3 on ROS melodic
+This will contain the process of how I ran a simulation of the turtlebot3 using ROS melodic
 
 I'm using the environment I built previously to work on the arduino_robot_arm package, all the documentation can be found in that repository
 
