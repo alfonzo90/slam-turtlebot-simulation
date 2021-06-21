@@ -26,7 +26,7 @@ Since I'm strictly working on simulations, I decided not to set up the network c
 
 ## Gazebo simulation
 
-The documentation on running a gazebos imulation for a turtlebot3 are provided here https://emanual.robotis.com/docs/en/platform/turtlebot3/simulation/#gazebo-simulation
+The documentation on running a gazebo simulation for a turtlebot3 is provided here https://emanual.robotis.com/docs/en/platform/turtlebot3/simulation/#gazebo-simulation
 
 In order to simulate it on gazebo i need to clone the turtlebot3 simulation package repository and compile it in a catkin workspace
 
@@ -62,3 +62,29 @@ $ roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
 ![VirtualBoxVM_mTZPDNgoS6](https://user-images.githubusercontent.com/25144777/122816769-d0598600-d2df-11eb-87ac-e955faa7a98b.png)
 
 ## SLAM simulation
+
+The documentation on running a SLAM simulation for a turtlebot3 is provided here https://emanual.robotis.com/docs/en/platform/turtlebot3/slam_simulation/
+
+I'll start by launching the same simulation world
+
+```
+$ roslaunch turtlebot3_gazebo turtlebot3_world.launch
+```
+
+Then I'll run a SLAM node using gmapping to start mapping the robot's surrounding obstacles
+
+```
+$ roslaunch turtlebot3_slam turtlebot3_slam.launch slam_methods:=gmapping
+```
+
+And finally, run the process needed to control the robot
+
+```
+$ roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+```
+
+
+
+
+
+
