@@ -35,8 +35,23 @@ $ cd ~/catkin_ws/src/
 $ git clone -b melodic-devel https://github.com/ROBOTIS-GIT/turtlebot3_simulations.git
 $ cd ~/catkin_ws && catkin_make
 ```
+Then i just have to export the variable that decides which robot im using (burger)
 
+```
+$ export TURTLEBOT3_MODEL=burger
+```
 
+Now i am able to launch any of the prebuilt gazebo simulations for the turtlebot3 robot, I will choose one of the simulations
+
+```
+$ roslaunch turtlebot3_gazebo turtlebot3_world.launch
+```
+
+And to control the robot using WASD input this in another terminal shell
+
+```
+$ roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+```
 
 
 ## SLAM simulation
