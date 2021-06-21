@@ -9,17 +9,17 @@ Since I already have ROS melodic installed, I started by following the steps doc
 
 In order to install the turtlebot3 package and all its dependencies I inputted the following
 
-'''
+```
 $ sudo apt-get install ros-melodic-dynamixel-sdk
 $ sudo apt-get install ros-melodic-turtlebot3-msgs
 $ sudo apt-get install ros-melodic-turtlebot3
-'''
+```
 
 and chose 'burger' as the robot i will work with, so I had to define it in the environment
 
-'''
+```
 $ echo "export TURTLEBOT3_MODEL=burger" >> ~/.bashrc
-'''
+```
 
 ## Gazebo simulation
 
