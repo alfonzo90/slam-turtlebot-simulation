@@ -16,7 +16,7 @@ $ sudo apt-get install ros-melodic-turtlebot3-msgs
 $ sudo apt-get install ros-melodic-turtlebot3
 ```
 
-and chose 'burger' as the robot i will work with, so I had to define it in the environment
+and chose 'burger' as the robot i will work with, so I had to define it in bashrc
 
 ```
 $ echo "export TURTLEBOT3_MODEL=burger" >> ~/.bashrc
