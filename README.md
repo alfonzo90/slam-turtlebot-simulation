@@ -83,8 +83,17 @@ And finally, run the process needed to control the robot
 $ roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
 ```
 
+### before moving
 
+![VirtualBoxVM_7lAt2ezZho](https://user-images.githubusercontent.com/25144777/122822409-b2435400-d2e6-11eb-99c0-352f43b50cf9.png)
 
+### after moving
 
+![VirtualBoxVM_zEKb5h1DlQ](https://user-images.githubusercontent.com/25144777/122822413-b53e4480-d2e6-11eb-9961-d0a127bd71ae.png)
 
+after revealing the whole map on the RViz SLAM simulation save the map by running
+
+```
+$ rosrun map_server map_saver -f ~/map
+```
 
