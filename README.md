@@ -21,6 +21,8 @@ and chose 'burger' as the robot i will work with, so I had to define it in the e
 $ echo "export TURTLEBOT3_MODEL=burger" >> ~/.bashrc
 ```
 
+Since I'm strictly working on simulations, I decided not to set up the network configuration
+
 ## Gazebo simulation
 
 
